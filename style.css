@@ -84,3 +84,131 @@ h1,h2,h3,h4,h5,h6{
 .bottom-content h1 span{
     font-size: 90px;
 }
+
+/* feature-section */
+.feature-section{
+    padding: 100px 0 150px;
+}
+.feature-title{
+    text-align: center;
+}
+.feature-title span{
+    font-size: 16px;
+    color: rgb(252, 65, 14);
+}
+.feature-title h2{
+    font-size: 42px;
+    padding: 10px 0;
+}
+.feature-content{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-product{
+    width: 10%;
+    margin: 25px;
+    padding: 35px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 20px;
+}
+.feature-product h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.feature-product:hover{
+    box-shadow: 5px 5px 10px rgb(252, 219, 213);
+}
+.product-item{
+    height: 90px;
+    width: 90px;
+}
+.product1{
+    background-color: rgb(255, 238, 235);
+}
+.product2{
+    background-color: rgb(255, 238, 235);
+}
+.product3{
+    background-color: rgb(255, 238, 235);
+}
+.product4{
+    background-color: rgb(255, 238, 235);
+}
+
+/* gallery-section */
+.gallery-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-item{
+    margin: 3px 18px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.gallery-item:hover .overlay{
+    top: 0;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    transition: .8s;
+    background-color: rgba(2, 2, 2, 0.582);
+    position: absolute;
+    top: -100%;
+    left: 0%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.overlay h3{
+    width: 80%;
+    font-size: 24px;
+    margin: 0 auto 10px;
+    color: rgba(255, 255, 255, 0.986);
+}
+.overlay i{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.918);
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay i:hover{
+    color: rgb(252, 66, 14);
+    background-color: rgba(255, 255, 255, 0.973);
+}
+.our-brand{
+    width: 60%;
+    margin: 0 auto;
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brand-logo{
+    width: 14%;
+}
+.brand-logo img{
+    cursor: pointer;
+    filter: invert(33%) sepia(0%) saturate(0%) hue-rotate(215deg) brightness(99%) contrast(87%);
+}
+.brand-logo img:hover{
+    filter: invert(42%) sepia(96%) saturate(4962%) hue-rotate(345deg) brightness(95%) contrast(101%);
+}
