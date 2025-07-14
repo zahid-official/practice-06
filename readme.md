@@ -1,4 +1,4 @@
-# Pizzami 🍕
+# 🍕 Pizzami 
 
 A beautiful and elegant pizza restaurant website designed to showcase culinary offerings and dining experiences. This project presents a modern, responsive landing page for a pizza business with a focus on user experience and visual appeal. The website features a clean design with intuitive navigation, product gallery sections, and interactive elements to create an engaging dining experience for pizza enthusiasts.
 
